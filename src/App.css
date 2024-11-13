@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.sidebar {
+  width: 25%;
+  background-color: #f3f3f3;
+  padding: 20px;
+  border-right: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 80%;
+  margin: 40px;
+}
+.error {
+  padding-top: 10px;
+  font-size: 14px;
+  color: red;
+}
+
+.url-list-title {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.main-content {
+  width: 75%;
+  padding: 40px;
+}
+
+.form-title {
+  font-size: 24px;
+  margin: 30px;
+  color: #333;
+}
+
+.url-form {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  gap: 15px;
+}
+
+.url-form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+.url-form select {
+  width: 500px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  width: 150px;
+  margin-top: 30px;
+  padding: 12px;
+  background-color: #9c27b0;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.url-form button:hover {
+  background-color: #7b1fa2;
+}
+
+.url-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.url-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 16px;
+  color: #333;
+}
+
+.url-list-item a {
+  color: #9c27b0;
+  text-decoration: none;
+}
+
+.url-list-item a:hover {
+  text-decoration: underline;
+}
+
+.delete-icon {
+  cursor: pointer;
+  color: #e53935;
+}
+
+.delete-icon:hover {
+  color: #d32f2f;
+}
