@@ -47,24 +47,3 @@ Steps:
 - You may also install Nodemon to automatically restart the backend when code changes:
   npm install -g nodemon
   nodemon index.js
-
-## Folder Structure
-
-<project-directory>/
-├── .env # Environment variables for frontend
-├── README.md # Documentation
-├── node_modules/ # Node dependencies for frontend
-├── public/ # Public files for frontend
-├── src/ # Source code for frontend
-├── package.json # Frontend dependencies
-├── url-shortener-backend/ # Backend folder
-│ ├── .env # Environment variables for backend
-│ ├── index.js # Backend entry file
-│ ├── package.json # Backend dependencies
-│ ├── node_modules/ # Node dependencies for backend
-│ ├── models/ # Mongoose models for backend
-│ ├── routes/ # Express routes for backend
-│ └── controllers/ # Controller functions for backend
-└── .gitignore # Files and folders to ignore in git
-
-With this setup, you can start both the frontend and backend servers and begin testing and developing your URL shortener application.
