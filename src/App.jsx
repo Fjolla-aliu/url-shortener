@@ -41,7 +41,6 @@ const App = () => {
   return (
     <div className="app">
       <ToastContainer />
-
       <aside className="sidebar">
         <div className="logo">
           <img src={logo} alt="logo"></img>
