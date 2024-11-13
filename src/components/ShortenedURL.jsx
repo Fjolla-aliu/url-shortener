@@ -11,7 +11,7 @@ const ShortenedURL = ({ urls, onDelete }) => {
             target="_blank"
             rel="noreferrer"
           >
-            {url.shortCode}
+            http://short.link/{url.shortCode}
           </a>
           <DeleteIcon
             className="delete-icon"
